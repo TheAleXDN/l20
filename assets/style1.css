@@ -1,0 +1,120 @@
+body {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  color: #000;
+  font-style: normal;
+  height: 100%;
+  background-color: rgb(27, 27, 27);
+  width: 100%;
+  margin: 0;
+}
+.can {
+  cursor: pointer;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.cont {
+  margin-top: 80px;
+  margin-left: 75px;
+  margin-right: 75px;
+  display: flex;
+  justify-content: center;
+}
+.cont_2 {
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cat {
+  display: flex;
+  flex-direction: column;
+}
+.content_1 {
+  display: flex;
+  justify-content: space-between;
+}
+.content_4 {
+  display: flex;
+  justify-content: space-around;
+}
+.cont_5 {
+  margin-top: 5%;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(106, 90, 205, 0.6);
+}
+.cont_6 {
+  display: flex;
+  justify-content: center;
+}
+.tex {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+.texs_1 {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+}
+
+.but {
+  margin-top: 50px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategray;
+}
+.but span {
+  font-size: 32px;
+}
+.glitch-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 9%;
+  margin-bottom: 3%;
+  margin-left: 5%;
+}
+.glitch {
+  padding-top: 10%;
+  color: #fff;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+.liloandstich {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-image: url(./img/stitch-clipart-cute-3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0;
+  cursor: pointer;
+  transition: 1s;
+  display: none;
+}
